@@ -1,0 +1,31 @@
+.lead__image {
+    background-size: cover;
+    /* background-position: center; */
+    width: 100vw;
+    height: 62.5vw;
+    margin-left: -16px;
+}
+
+@media screen and (min-width: 768px) {
+    .lead__image {
+        margin-left: -24px;
+        width: 100vw;
+        height: 56.64vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__image {
+        width: 100%;
+        margin: 0;
+        height: 56.64vw;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__image {
+        width: 100%;
+        margin: 0;
+        height: 48.05vw;
+    }
+}
