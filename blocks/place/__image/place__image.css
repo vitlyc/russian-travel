@@ -1,0 +1,29 @@
+ .place__image {
+     width: 100vw;
+     margin: 32px 0;
+     margin-left: -16px;
+ }
+ 
+ @media screen and (min-width: 768px) {
+     .place__image {
+         width: 100%;
+         margin: 0;
+         grid-row: 2/span 2;
+     }
+ }
+ 
+ @media screen and (min-width: 1024px) {
+     .place__image {
+         width: 100%;
+         margin: 0;
+         grid-row: 2/span 2;
+     }
+ }
+ 
+ @media screen and (min-width: 1280px) {
+     .place__image {
+         width: 100%;
+         margin: 0;
+         grid-row: 2/span 2;
+     }
+ }
