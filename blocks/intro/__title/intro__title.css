@@ -1,11 +1,12 @@
 .intro__title {
+    /* text-align: center; */
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
+    padding: 0 16px 0;
     margin: 0;
-    width: 288px;
-    height: 70px;
+    min-width: 288px;
 }
 
 @media screen and (min-width: 768px) {
@@ -13,5 +14,12 @@
         font-size: 54px;
         line-height: 58px;
         width: 720px;
+        padding: 0 24px 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro__title {
+        padding-left: 0;
     }
 }
