@@ -21,3 +21,9 @@
         padding-bottom: 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .place__title {
+        padding-left: 15px;
+    }
+}
