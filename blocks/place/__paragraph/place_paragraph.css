@@ -5,17 +5,13 @@
     line-height: 26.08px;
     margin: 0;
     padding: 0 16px;
+    display: block;
 }
 
 @media screen and (min-width: 768px) {
     .place__paragraph {
-        font-size: 16px;
         line-height: 26px;
         padding: 0;
-        margin: 0;
-    }
-    .place:last-of-type>.place__paragraph {
-        /* margin-top: -48px; */
     }
 }
 
@@ -23,23 +19,19 @@
     .place__paragraph {
         font-size: 18px;
         line-height: 163%;
-        padding: 0;
-        margin: 0;
     }
 }
 
-.place__paragraph:nth-of-type(2n+1) {
-    /* margin-top: 25px;
-    padding-bottom: 50px;
-    color: blue;
-    grid-column: 2;
-    grid-row: 3 / 4; */
+.place__paragraph:nth-of-type(2n) {
     margin-top: -7px;
 }
 
 @media screen and (min-width: 768px) {
-    .place__paragraph:nth-of-type(2n+1) {
+    .place__paragraph:nth-of-type(2n) {
         margin-top: -23px;
         padding: 0;
+        grid-column: 2;
+        grid-row: 3 / 4;
+        margin-top: -7px;
     }
 }

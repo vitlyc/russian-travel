@@ -2,6 +2,9 @@
     padding: 64px 16px 64px;
     display: grid;
     gap: 12px;
+    max-width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {

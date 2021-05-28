@@ -8,23 +8,13 @@
     box-sizing: border-box;
     position: relative;
     z-index: 1;
-}
-
-@media screen and (min-width: 768px) {
-    .cover {
-        padding: 115px 104px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .cover {
-        padding: 195px 232px;
-    }
+    max-width: 1184px;
+    margin: 0 auto;
 }
 
 @media screen and (min-width: 1280px) {
     .cover {
-        padding: 245px 312px;
+        /* padding: 245px 312px; */
         max-width: 1184px;
         max-height: 740px;
         margin: 0 auto;
