@@ -12,13 +12,13 @@
             grid-template-rows: fit-content(300px) fit-content(300px) fit-content(300px);
             row-gap: 48px;
             column-gap: 28px;
-            padding-bottom: 73px;
+            padding-bottom: 45px;
         }
     }
     
     @media screen and (min-width: 1024px) {
         .place {
-            grid-template-columns: minmax(440px, 1fr) minmax(456px, 1fr);
+            grid-template-columns: minmax(440px, 1fr) fit-content(456px, 1fr);
             grid-template-rows: fit-content(300px) fit-content(300px) fit-content(300px);
             column-gap: 32px;
             padding-bottom: 80px;
