@@ -23,16 +23,7 @@
     .intro__title {
         width: 690px;
         padding-left: 0;
-        padding-right: 280px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .intro__title {
-        width: 690px;
-        padding-left: 148px;
-        padding-right: 442px;
+        padding-right: 275px;
         margin: 0 auto;
     }
 }

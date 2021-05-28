@@ -32,5 +32,9 @@
         padding: 0;
         grid-column: 2;
         grid-row: 3 / 4;
+<<<<<<< HEAD
+=======
+        margin-top: -7px;
+>>>>>>> 8cfaff2dce4ae09c79954c228ac9849a3860e6fd
     }
 }
