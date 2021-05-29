@@ -14,8 +14,8 @@
     .intro__title {
         font-size: 54px;
         line-height: 58px;
-        width: 719px;
-        padding: 0 23px 0;
+        padding-left: 24px;
+        max-width: 720px;
     }
 }
 
@@ -23,7 +23,7 @@
     .intro__title {
         width: 690px;
         padding-left: 0;
-        padding-right: 275px;
+        padding-right: 290px;
         margin: 0 auto;
     }
 }
