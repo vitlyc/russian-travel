@@ -1,5 +1,5 @@
 # Проект: Путешествие по России
-https://vitlyc.github.io/russian-travel/
+https://ubiquitous-nougat-6ebbc0.netlify.app
 Адаптивная верстка
 ### Обзор
 * Интро
